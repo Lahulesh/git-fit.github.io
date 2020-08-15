@@ -1,0 +1,539 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-emphasis: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+header
+{
+    background-color: cornflowerblue;
+}
+header h1
+{
+    text-shadow: 4px -2px 5px purple;
+    color: aqua;
+    font-size: 40px;
+    font-weight: bolder;
+}
+header .ml-auto
+{
+    font-size: 25px;
+    font-weight: 500;
+    padding-right: 50px;
+}
+.carousel-item img
+{
+    width: 100%;
+}
+.extra
+{
+    margin: 233px 69px;
+    font-weight: bold;
+    color: black;
+}
+html,
+body {
+    position: relative;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+.programme
+{
+    background-image: linear-gradient(180deg,red,purple);
+}
+.programme h1
+{
+    /* font-size: 24px; */
+    font-weight: bold;
+    text-align: center;
+    margin: 24px 0px;
+    font-weight: bolder;
+    color: aliceblue;
+}
+.programme h3
+{
+    color: greenyellow;
+    text-shadow: 1px 0px 0px springgreen;
+    font-weight: 600;
+    cursor: pointer;
+}
+.programme h3:hover
+{
+    color: red;
+    text-shadow: 1px 0px 0px springgreen;
+    font-weight: bold;
+}
+.programme .card-1:hover
+{
+    border: 3px solid powderblue;
+    background-image: url(https://images.unsplash.com/photo-1526407153035-415201c1ba3d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+.card-1
+{
+    /* border: 3px solid black; */
+    padding: 0px 0px;
+    margin: 30px 4px;
+    text-align: center;
+}
+.card-1 h3
+{
+    margin-top: 20px;
+}
+.card-1 p
+{
+    margin-top: 20px;
+    color: white;
+    font-size: 15px;
+}
+.card-1 p:hover
+{
+    color: springgreen;
+    cursor: pointer;
+}
+/******************************************************* About Us Start ***********************************************************/
+.about
+{
+    background-image: url(https://wallpapercave.com/wp/wp4436695.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.about .images
+{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/998/801/66/arnold-schwarzenegger-bodybuilder-gyms-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-position: 47% -45%;
+    border-radius: 20px;
+    height: 400px;
+    width: 100%;
+    clip-path: circle(37% at 46% 55%);
+    margin: -31px 21px;
+}
+.about .images1
+{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/38/389/150/female-workout-fitness-dumbbell-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-position: 15% -100%;
+    border-radius: 20px;
+    height: 400px;
+    width: 100%;
+    clip-path: circle(37% at 46% 55%);
+    margin: -31px 21px;
+}
+.about h1
+{
+    margin-top: 50px;
+    text-align: center;
+}
+.about .inline:hover
+{
+    border: 3px solid springgreen;
+    background-color: lightblue;
+    text-align: center;
+    border-radius: 60px;
+}
+.inline
+{
+    text-align: center;
+    border: 3px solid springgreen;
+}
+.inline p
+{
+    font-size: 30px;
+}
+
+.inline h3
+{
+    font-size: 22px;
+    font-weight: bolder;
+    color: brown;
+    text-shadow: 1px 3px 1px coral;
+}
+.card-deck
+{
+    margin: 20px 0px;
+}
+.card-deck h5
+{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.classess
+{
+    background-color: lightgoldenrodyellow;
+    padding: 20px 0px;
+}
+/******************************************************* About Us End ***********************************************************/
+/*************************************************** class schedule start ********************************************************/
+.schedule
+{
+    background-image: url(https://images5.alphacoders.com/109/1094045.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 38% 0%;
+}
+.schedule h1
+{
+    color: whitesmoke;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.schedule p
+{
+    color: wheat;
+    padding-bottom: 20px;
+}
+.schedule ul
+{
+    
+}
+
+
+.schedule ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px;
+}
+.schedule ul li a
+{
+    text-decoration: none;
+}
+.schedule ul li a:hover
+{
+    color: green;
+    background-color: red;
+    border-radius: 7px;
+    padding: 7px 0px;
+}
+.pad
+{
+    margin: 0px 0px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  tr {
+    /* background-color: rgb(165, 182, 229); */
+    box-shadow: 1px 3px 15px darkorange;
+  }
+tr:hover
+{
+     background-color: olivedrab;
+     color: white;
+     font-weight: bold;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    list-style: none;
+}
+/*************************************************** class schedule End *********************************************************/
+/**-*********************************************************** footer start ************************************************** */
+.footer
+{
+    background-image: linear-gradient(36deg,#004ed8 24%,  #D2691E 81%,#4B009D 72%);
+    padding: 20px 0px;
+}
+.footer h5
+{
+    color: papayawhip;
+    font-weight: bold;
+    font-size: 25px;
+}
+.footer h5:hover
+{
+    color: black;
+}
+.form-control
+{
+    /* width: 80%; */
+}
+/* .btn-primary
+{
+    position: absolute;
+    left: 298px;
+    top: 177px;
+} */
+.footer img
+{
+    width: 100%;
+    height: 98px;
+    margin-top: 10px;
+}
+.social-icons
+{
+    float: right;
+}
+.footer a i
+{
+    padding: 5px 25px;
+    font-size: 25px;
+
+}
+.footer .footer-line
+{
+    background-color: chartreuse;
+    margin-top: 10px;
+    text-align: center;
+}
+.footer-line p
+{
+    margin:10px 0px;
+    font-weight: bolder;
+}
+.footer-line p:hover
+{
+    color: cornsilk;
+    text-shadow: 2px 5px 2px black;
+}
+
+/**-*********************************************************** footer End ************************************************** */
+/****************************************************************** About.html Strat ********************************************/
+.about h1
+{
+    color: ivory;
+    font-weight: 600;
+    font-family: initial;
+}
+.about h1:hover
+{
+    color: lawngreen;
+    text-shadow: -3px 0px 5px cyan;
+}
+.about p
+{
+    color: azure;
+    font-family: monospace;
+    font-weight: 800;
+}
+.about1
+{
+    background-image: linear-gradient(213deg,orange,red,green,yellow,blue);
+    padding-bottom: 75px;
+}
+.about1 .title p
+{
+    color: black;
+    text-align: center;
+    font-weight: 600;
+}
+.about1 .title p:hover
+{
+    color: cornsilk;
+}
+.about1 .title h4
+{
+    color: cornsilk;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.about1 .title h4:hover
+{
+    color: black;
+    font-family: monospace;
+}
+.about p:hover
+{
+    font-family: cursive;
+}
+.banner
+{
+    background-image: url(https://images5.alphacoders.com/697/697601.jpg);
+    background-size: cover;
+    background-position: 75% 0%;
+    width: 100%;
+}
+.abc img
+{
+    margin-top: 57px;
+    margin-bottom: -43px;
+}
+.about1 .abc
+{
+    /* margin-bottom: 70px; */
+}
+.about1 .title
+{
+    padding-top: 50px;
+}
+                              /****************** Perfect start ******************************/
+
+.perfect
+{
+    background-image: url(https://images7.alphacoders.com/696/696170.jpg);
+    background-color: liner-gradiant;
+    background-repeat: no-repeat;
+    background-position: 70% 0%;
+    background-size: cover;
+    width: 100%;
+}
+.perfect button
+{
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid white;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+.perfect a button
+{
+    border-radius: 50px;
+    background-color: orangered;
+    border: 1px solid white;
+    font-weight: bolder;
+    color: white!important;
+}
+.perfect .btn-primary:hover 
+{
+    color: red!important; 
+    background-color: orange;
+    border-color: green;
+}
+
+                              /****************** Perfect End ******************************/
+                              /****************** expert Start***************************** */
+.expert
+{
+    background-image: radial-gradient(pink,#0C632B,#1D4E86);
+}
+.expert h1
+{
+    margin-top: 20px;
+}
+
+                              
+
+                              
+                              /****************** expert End *******************************/ 
+                              /****************** Member-ship End **************************/
+.membership
+{
+    background-color: coral;
+}
+.membership h1
+{
+    margin-top: 20px;
+}
+.membership .border
+{
+    border: 1px solid black!important;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.membership .border span
+{
+    color: gray;
+    font-weight: bold;
+}
+.membership .border div
+{
+    height: 95px;
+    width: 100px;
+    border: 2px dotted greenyellow;
+    background-color: orangered;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin-top: -40px;
+}
+.membership .border div h3
+{
+    margin-top: 11px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.membership button
+{
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid white;
+    font-weight: bolder;
+    color: whitesmoke;
+    padding-bottom: 10px;
+}
+.membership a button
+{
+    border-radius: 50px;
+    background-color: orangered;
+    border: 1px solid white;
+    font-weight: bolder;
+    color: white!important;
+}
+.membership .btn-primary:hover 
+{
+    color: red!important; 
+    background-color: orange;
+    border-color: green;
+}
+.membership .height
+{
+    padding: 20px 12px;
+}
+.water
+{
+    background-image: url(https://source.unsplash.com/user/erondu/1600x900);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+
+                               /****************** Member-ship Start**************************/
+                               /****************** Contact Start**************************/
+
+.contact-img
+{
+    background-image: url(https://wallpapercave.com/wp/wp3132300.jpg);
+    /* background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/24/Giant_Sequoia_Sequoiadendron_giganteum_Tyler_Tree_2000px.jpg); */
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    width: 100%;
+}
+.contact
+{
+    background-color: burlywood;
+}
+.butn
+{
+    /* color: coral;
+    background-color: crimson; */
+    border-radius: 50px;
+    height: 41px;
+    width: 110px;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 2px solid black;
+}
+.butn:hover
+{
+    border: 2px solid black;
+}
+.contact button
+{
+    margin-bottom: 20px;
+}
+                               /****************** Contact End**************************/
+
+                                
+/****************************************************************** About.html End******************************************* */
